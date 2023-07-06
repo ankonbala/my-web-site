@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.container{
+background-color:gray ;
+padding: 20px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+
+
+
+}
+.logo{
+    width: 150px;
+    color: white;
+    font-size: 30px;
+}
+.menu{
+    color: white;
+    list-style: none;
+    display: flex;
+}
+.item{
+    margin: 10px;
+    padding: 7px;
+    font-size: 18px;
+}
+
+.item:hover{
+    color: blue;
+}
+.logo:hover{
+    color: red ;
+}
+
+.main{
+display: flex;
+margin: 2px;
+justify-content: center;
+align-items: center;
+background-image: url("download (1).jfif");
+height: 100vh;
+
+
+}
+
+.bio{
+    font-size: 20px;
+    color: white;
+}
+.btn{
+    width: 120px;
+    height: 30px;
+    background-color: red;
+    border-radius: 5px;
+    border: 0px;
+    margin: 30px 0px 0px 0px;
+    color: white;
+    
+}
+
+.btn:hover{
+    color: rgb(66, 65, 65);
+}
