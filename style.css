@@ -64,7 +64,8 @@ height: 100vh;
 }
 
 .btn:hover{
-    color: rgb(66, 65, 65);
+    
+    background-color: green;
 }
 
 .h1{
@@ -103,6 +104,7 @@ background-repeat: no-repeat;
 .sec4{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     
 
 }
@@ -117,10 +119,13 @@ background-repeat: no-repeat;
     width: 230px;
     height: 280px;
     box-shadow: 4px 4px 15px gray;
+    
     background-color:black;
     text-align: center;
+
     padding: 15px;
     color: white;
+    align-items: center;
 
 }
 
@@ -145,4 +150,38 @@ border: 20px;
 
 .btn2:hover{
     background-color: green;
+}
+
+.f{
+    text-align:center;
+    background-color: black;
+    color: white;
+
+}
+
+.ls{
+    background-color: black;
+   
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.ld{
+    width: 230px;
+    height: 200px;
+   
+    background-color:black;
+    text-align: center;
+    padding: 15px;
+    color:gray;
+    padding: 40px;
+}
+.ldl{
+    width: 150px;
+    color: white;
+    font-size: 30px;
+   
+    border: 50px;
+    padding: 80px;
 }
