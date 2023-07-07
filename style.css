@@ -66,3 +66,83 @@ height: 100vh;
 .btn:hover{
     color: rgb(66, 65, 65);
 }
+
+.h1{
+    font-size: 80px;
+    align-items: center;
+justify-content: center;
+text-align: center;
+padding: 15px;
+}
+.sec1{
+    display: flex;
+margin: 2px;
+justify-content: center;
+align-items: center;
+}
+.sec{
+
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.img{
+    width: 300px;
+}
+.sec3{
+background-image: url("./background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
+background-position: center;
+background width: 100%;
+background height:500px;
+background-repeat: no-repeat;
+
+
+}
+.sec4{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+.png{
+    width: 60px;
+    justify-content: center;
+
+}
+
+.Services{
+    width: 230px;
+    height: 280px;
+    box-shadow: 4px 4px 15px gray;
+    background-color:black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+
+}
+
+.h2{
+    font-size: 60px;
+    align-items: center;
+justify-content: center;
+text-align: center;
+padding: 30px;
+color: white;
+border: 20px;
+}
+.btn2{
+    width: 80px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 5px;
+    border: 0px;
+    margin: 20px 0px 0px 0px;
+    color: white;
+}
+
+.btn2:hover{
+    background-color: green;
+}
